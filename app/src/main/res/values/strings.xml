@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">android-2-touch-mail</string>
 
+    <!--明示的インテント Explicit Intent  テスト-->
     <string name="next">次の画面へ</string>
     <string name="second">SecoundActivityです</string>
+
+
 </resources>

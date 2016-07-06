@@ -1,5 +1,6 @@
 package rimp.rild.com.android.android_2_touch_mail;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,17 +14,15 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
+        /**
+        イベントリスナを仕掛けておく
+         イベントリスナは イベントハンドラメソッドを実行する
+         */
         mButton = (TextView) findViewById(R.id.button_first);
 
-        mButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
         mButton.setOnClickListener(v -> {
-
+            Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+            startActivity(intent);
         });
     }
 }
