@@ -5,5 +5,15 @@
     <string name="next">次の画面へ</string>
     <string name="second">SecoundActivityです</string>
 
+    <string name="activity_main">どんなメールを送りますか</string>
+    <string name="button_pick_me_up">迎えに来て欲しい！</string>
+    <string name="button_no_dinner">ご飯いらないよ</string>
+    <string name="button_send">送信</string>
+    <string name="subject">件名</string>
+    <string name="place">場所</string>
+    <string name="place_station">駅</string>
+    <string name="place_school">学校</string>
+    <string name="place_always">いつもの場所</string>
+    <string name="mail_to">test@gmail.com</string>
 
 </resources>
